@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\juno0\\Desktop\\AL\\al\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7AF85B11-B7EE-4026-868D-4AA7C96BB27C}|al.vcxproj|C:\\Users\\juno0\\Desktop\\AL\\al\\Program.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7AF85B11-B7EE-4026-868D-4AA7C96BB27C}|al.vcxproj|solutionrelative:Program.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ACD7231-16C1-4711-B754-327224ED021E}|..\\Class2th (\uC644\uC804 \uD0D0\uC0C9)\\Class2th (\uC644\uC804 \uD0D0\uC0C9).vcxproj|C:\\Users\\juno0\\Desktop\\AL\\Class2th (\uC644\uC804 \uD0D0\uC0C9)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Source.cpp",
+              "DocumentMoniker": "C:\\Users\\juno0\\Desktop\\AL\\Class2th (\uC644\uC804 \uD0D0\uC0C9)\\Source.cpp",
+              "RelativeDocumentMoniker": "..\\Class2th (\uC644\uC804 \uD0D0\uC0C9)\\Source.cpp",
+              "ToolTip": "C:\\Users\\juno0\\Desktop\\AL\\Class2th (\uC644\uC804 \uD0D0\uC0C9)\\Source.cpp",
+              "RelativeToolTip": "..\\Class2th (\uC644\uC804 \uD0D0\uC0C9)\\Source.cpp",
+              "ViewState": "AgIAABEAAAAAAAAAAAAiwCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-08-12T12:24:45.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cpp",
+              "DocumentMoniker": "C:\\Users\\juno0\\Desktop\\AL\\al\\Program.cpp",
+              "RelativeDocumentMoniker": "Program.cpp",
+              "ToolTip": "C:\\Users\\juno0\\Desktop\\AL\\al\\Program.cpp",
+              "RelativeToolTip": "Program.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-08-12T11:09:41.538Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
