@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class3th (거품 정렬)", 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class5th (선택 정렬)", "..\Class5th (선택 정렬)\Class5th (선택 정렬).vcxproj", "{CD9CC085-51FB-4851-9D73-C2ACB542D7C4}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class6th (삽입 정렬)", "..\Class6th (삽입 정렬)\Class6th (삽입 정렬).vcxproj", "{893E891F-49EE-40B3-952D-9548A3DFC20D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -61,6 +63,14 @@ Global
 		{CD9CC085-51FB-4851-9D73-C2ACB542D7C4}.Release|x64.Build.0 = Release|x64
 		{CD9CC085-51FB-4851-9D73-C2ACB542D7C4}.Release|x86.ActiveCfg = Release|Win32
 		{CD9CC085-51FB-4851-9D73-C2ACB542D7C4}.Release|x86.Build.0 = Release|Win32
+		{893E891F-49EE-40B3-952D-9548A3DFC20D}.Debug|x64.ActiveCfg = Debug|x64
+		{893E891F-49EE-40B3-952D-9548A3DFC20D}.Debug|x64.Build.0 = Debug|x64
+		{893E891F-49EE-40B3-952D-9548A3DFC20D}.Debug|x86.ActiveCfg = Debug|Win32
+		{893E891F-49EE-40B3-952D-9548A3DFC20D}.Debug|x86.Build.0 = Debug|Win32
+		{893E891F-49EE-40B3-952D-9548A3DFC20D}.Release|x64.ActiveCfg = Release|x64
+		{893E891F-49EE-40B3-952D-9548A3DFC20D}.Release|x64.Build.0 = Release|x64
+		{893E891F-49EE-40B3-952D-9548A3DFC20D}.Release|x86.ActiveCfg = Release|Win32
+		{893E891F-49EE-40B3-952D-9548A3DFC20D}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
