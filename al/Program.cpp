@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
 #pragma region 
-	int x = 30;
+	float x = 45;
 
 #pragma endregion
 
