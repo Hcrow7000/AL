@@ -5,6 +5,9 @@
     {
       "AbsoluteMoniker": "D:0:0:{7AF85B11-B7EE-4026-868D-4AA7C96BB27C}|al.vcxproj|C:\\Users\\juno0\\Desktop\\AL\\al\\Program.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{7AF85B11-B7EE-4026-868D-4AA7C96BB27C}|al.vcxproj|solutionrelative:Program.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3DB3D14-0A1B-4E6D-A80D-CECEDA3FE6D9}|..\\Class10th (\uC774\uBD84 \uD0D0\uC0C9)\\Class10th (\uC774\uBD84 \uD0D0\uC0C9).vcxproj|C:\\Users\\juno0\\Desktop\\AL\\Class10th (\uC774\uBD84 \uD0D0\uC0C9)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +17,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Source.cpp",
+              "DocumentMoniker": "C:\\Users\\juno0\\Desktop\\AL\\Class10th (\uC774\uBD84 \uD0D0\uC0C9)\\Source.cpp",
+              "RelativeDocumentMoniker": "..\\Class10th (\uC774\uBD84 \uD0D0\uC0C9)\\Source.cpp",
+              "ToolTip": "C:\\Users\\juno0\\Desktop\\AL\\Class10th (\uC774\uBD84 \uD0D0\uC0C9)\\Source.cpp",
+              "RelativeToolTip": "..\\Class10th (\uC774\uBD84 \uD0D0\uC0C9)\\Source.cpp",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAywDIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-08-20T12:25:57.589Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +40,7 @@
               "RelativeDocumentMoniker": "Program.cpp",
               "ToolTip": "C:\\Users\\juno0\\Desktop\\AL\\al\\Program.cpp",
               "RelativeToolTip": "Program.cpp",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-08-12T11:09:41.538Z",
               "EditorCaption": ""
