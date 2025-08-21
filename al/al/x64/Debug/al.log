@@ -1,2 +1,3 @@
 ﻿  Program.cpp
+C:\Users\juno0\Desktop\AL\al\Program.cpp(51,1): warning C4717: 'sort': 모든 제어 경로에서 재귀적입니다. 함수로 인해 런타임 스택 오버플로가 발생합니다.
   al.vcxproj -> C:\Users\juno0\Desktop\AL\al\x64\Debug\al.exe
