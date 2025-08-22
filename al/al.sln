@@ -25,6 +25,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class9th (분할 정복)", 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class10th (이분 탐색)", "..\Class10th (이분 탐색)\Class10th (이분 탐색).vcxproj", "{E3DB3D14-0A1B-4E6D-A80D-CECEDA3FE6D9}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class11th (퀵 정렬)", "..\Class11th (퀵 정렬)\Class11th (퀵 정렬).vcxproj", "{8059B90D-F9BE-4FA0-86D2-9DD36FB156CC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -121,6 +123,14 @@ Global
 		{E3DB3D14-0A1B-4E6D-A80D-CECEDA3FE6D9}.Release|x64.Build.0 = Release|x64
 		{E3DB3D14-0A1B-4E6D-A80D-CECEDA3FE6D9}.Release|x86.ActiveCfg = Release|Win32
 		{E3DB3D14-0A1B-4E6D-A80D-CECEDA3FE6D9}.Release|x86.Build.0 = Release|Win32
+		{8059B90D-F9BE-4FA0-86D2-9DD36FB156CC}.Debug|x64.ActiveCfg = Debug|x64
+		{8059B90D-F9BE-4FA0-86D2-9DD36FB156CC}.Debug|x64.Build.0 = Debug|x64
+		{8059B90D-F9BE-4FA0-86D2-9DD36FB156CC}.Debug|x86.ActiveCfg = Debug|Win32
+		{8059B90D-F9BE-4FA0-86D2-9DD36FB156CC}.Debug|x86.Build.0 = Debug|Win32
+		{8059B90D-F9BE-4FA0-86D2-9DD36FB156CC}.Release|x64.ActiveCfg = Release|x64
+		{8059B90D-F9BE-4FA0-86D2-9DD36FB156CC}.Release|x64.Build.0 = Release|x64
+		{8059B90D-F9BE-4FA0-86D2-9DD36FB156CC}.Release|x86.ActiveCfg = Release|Win32
+		{8059B90D-F9BE-4FA0-86D2-9DD36FB156CC}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
