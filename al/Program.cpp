@@ -3,6 +3,7 @@
 
 using namespace std;
 
+
 class Graph
 {
 private:
@@ -43,8 +44,6 @@ int main()
 
 	graph.insert('C', 'F');
 	graph.insert('F', 'G');
-
-
 
 #pragma endregion
 
