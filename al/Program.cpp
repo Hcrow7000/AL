@@ -1,58 +1,50 @@
 #include <iostream>
+#include <vector>
 
 using namespace std;
 
-int fibonacci(int n, int list[])
+class Graph
 {
-	if (n <= 0)
-	{
-		return 0;
-	}
-	else if (n <= 2)
-	{
-		return 1;
-	}
+private:
+	// 1. 방문 확인
+	vector<bool> visited;
+	// 2. 인접 리스트
+	vector<vector<char>> adjacencyList;
 
-	if (list[n] != 0)
+public:
+	Graph(int size)
 	{
-		return list[n];
+		adjacencyList.resize(abs(size));
 	}
 
-	return list[n] = fibonacci(n - 1,list) 
-		+ fibonacci(n - 2,list);
+	void insert(int i, int j)
+	{
+		adjacencyList[i].push_back(j);
+		adjacencyList[j].push_back(i);
 
-}
+	}
+
+};
 
 int main()
 {
-#pragma region 동적 계획법
-	// 특정 범위까지의 값을 구하기 위해
-	// 그것과 다른 범위까지의 값을 이용해
-	// 효율적으로 값을 구하는 알고리즘이다.
+#pragma region 깊이 우선 탐색
+	// 그래프에서 한 방향으로 갈 수 있을만큼
+	// 깊이 들어갔다간, 더 이상 갈 수 없으며
+	// 다시 돌아와서 다른 경로를 탐색하는 방법입니다.
 
-	// 겹치는 부분 문제 (Overlapping Subproblems)
-	// 동일한 작은 문제들이 반복하여 
-	// 나타나는 경우를 의미합니다.
+	Graph graph(100);
 
-	// 최적 부분 구조 (Optimal Substructure)
-	// 부분 문제의 최적 결과 값을 사용하여
-	// 전체 문제의 최적의 결과를 낼 수 있는 
-	// 경우를 의미합니다.
+	graph.insert('A', 'B');
+	graph.insert('A', 'C');
 
-	// 메모이제이션 (Memoization)
-	// 프로그램이 동일한 계산을 반복해야할 때,
-	// 이전에 계산한 값을 메모리에 저장함으로써
-	// 동일한 계산을 반복 수행하는 작업을
-	// 제거하여 프로그램의 실행 속도를 
-	// 향상시키는 방법입니다.
+	graph.insert('B', 'D');
+	graph.insert('B', 'E');
 
-	int n = 46;
-	
-	int* list = new int[n + 1] {0};
+	graph.insert('C', 'F');
+	graph.insert('F', 'G');
 
-	cout << fibonacci(n,list) << endl;
-		 
-	delete[] list;
+
 
 #pragma endregion
 
