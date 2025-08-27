@@ -1,24 +1,17 @@
 #include <iostream>
 #include <vector>
+#include <unordered_map>
 
 using namespace std;
 
-
+template<typename T>
 class Graph
 {
 private:
-	// 1. 방문 확인
-	vector<bool> visited;
-	// 2. 인접 리스트
-	vector<vector<char>> adjacencyList;
-
+	unordered_map<T, vector<T>> adjacencyList;
 public:
-	Graph(int size)
-	{
-		adjacencyList.resize(abs(size));
-	}
 
-	void insert(int i, int j)
+	void insert(const T& i,const T& j)
 	{
 		adjacencyList[i].push_back(j);
 		adjacencyList[j].push_back(i);
@@ -27,14 +20,15 @@ public:
 
 };
 
+
 int main()
 {
-#pragma region 깊이 우선 탐색
-	// 그래프에서 한 방향으로 갈 수 있을만큼
-	// 깊이 들어갔다간, 더 이상 갈 수 없으며
-	// 다시 돌아와서 다른 경로를 탐색하는 방법입니다.
+#pragma region 너비 우선 탐색
+	// 시작 정점으로부터 가까운 정점을 먼저방문
+	// 그후 멀리 떨어져 있는 정점을 우선적으로
+	// 방문하는 탐색입니다.
 
-	Graph graph(100);
+	Graph<char> graph;
 
 	graph.insert('A', 'B');
 	graph.insert('A', 'C');
@@ -43,7 +37,7 @@ int main()
 	graph.insert('B', 'E');
 
 	graph.insert('C', 'F');
-	graph.insert('F', 'G');
+	graph.insert('C', 'G');
 
 #pragma endregion
 
