@@ -35,6 +35,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class14th (탐욕법)", "..
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class15th (깊이 우선 탐색)", "..\Class15th (깊이 우선 탐색)\Class15th (깊이 우선 탐색).vcxproj", "{41D9DAB9-6AD1-46FF-BECD-937EB3C327BE}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class16th (너비 우선 탐색)", "..\Class16th (너비 우선 탐색)\Class16th (너비 우선 탐색).vcxproj", "{7A9442EE-A00D-4981-8429-7AE2B688776F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -171,6 +173,14 @@ Global
 		{41D9DAB9-6AD1-46FF-BECD-937EB3C327BE}.Release|x64.Build.0 = Release|x64
 		{41D9DAB9-6AD1-46FF-BECD-937EB3C327BE}.Release|x86.ActiveCfg = Release|Win32
 		{41D9DAB9-6AD1-46FF-BECD-937EB3C327BE}.Release|x86.Build.0 = Release|Win32
+		{7A9442EE-A00D-4981-8429-7AE2B688776F}.Debug|x64.ActiveCfg = Debug|x64
+		{7A9442EE-A00D-4981-8429-7AE2B688776F}.Debug|x64.Build.0 = Debug|x64
+		{7A9442EE-A00D-4981-8429-7AE2B688776F}.Debug|x86.ActiveCfg = Debug|Win32
+		{7A9442EE-A00D-4981-8429-7AE2B688776F}.Debug|x86.Build.0 = Debug|Win32
+		{7A9442EE-A00D-4981-8429-7AE2B688776F}.Release|x64.ActiveCfg = Release|x64
+		{7A9442EE-A00D-4981-8429-7AE2B688776F}.Release|x64.Build.0 = Release|x64
+		{7A9442EE-A00D-4981-8429-7AE2B688776F}.Release|x86.ActiveCfg = Release|Win32
+		{7A9442EE-A00D-4981-8429-7AE2B688776F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
