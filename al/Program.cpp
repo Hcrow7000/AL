@@ -6,80 +6,54 @@
 
 using namespace std;
 
-template<typename T> 
-class Graph
+#define INFINITY 10000000
+
+template<typename T>
+class Dijkastra
 {
 private:
-	unordered_set<T> vertices;
-	unordered_map<T, vector<T>>  adjacencyList;
-	unordered_map<T, int> degree;
+	unordered_set<T> visited;
+	unordered_map<T, vector<T>> distance;
 
 public:
-	void insert(const T& i, const T& j)
+	void insert(int i, int j, int weight)
 	{
-		adjacencyList[i].push_back(j);
-
-		degree[j]++;
-
-		vertices.insert(i);
-		vertices.insert(j);
-
-		if (degree.count(i))
-		{
-			degree[i] = 0;
-		}
 
 	}
 
-	void sort()
+	void resize(int node)
 	{
-
+		int newSize = node + 1;
 	}
 
 };
 
 int main()
 {
-#pragma region 위상 정렬
-	// 병합 그래프에 존재하는 각 정점들의
-	// 선행 순서를 지키며, 모든 정점을 
-	// 차례대로 진행하는 방식의 정렬입니다.
+#pragma region 다익스트라 알고리즘
+	// 시작점으로부터 모든 노드까지의
+	// 최소 거리를 구해주는 알고리즘이다.
 
-	// 사이클이 발생하는 경우 
-	// 위상 정렬을 수행할 수 없습니다.
+	// 1. 거리배열에서 weight[시작 노드]의
+	// 값을 초기화 합니다.
 
-	// DAG(Directed Acyclic Graph) 
-	// 사이클이 존재하지 않는 그래프
+	// 2. 시작점을 방문 처리한다.
+
+	// 3. 거리 배열에서 최소 비용 노드를 찾고
+	// 방문처리합니다.
+
+	// 4. 최소 비용 노드를 거쳐갈지 고민해서
+	// 거리 배열을 갱신합니다. 
+	// 단, 이미 방문한 노드는 제외합니다.
+
+	// 5. 모든 노드를 방문할때까지 
+	// 3번~4번을 반복합니다.
+
+	// 방문하지 않은 노드중에서 가장 작은거리를
+	// 가진 노드를 방문하고, 그 노드와 연결된
+	// 다른 노드까지의 거리를 계산합니다.
+
 	
-	// 시간 복잡도 : O(V + E)
-
-	//  위상 정렬하는 방법
-
-	// 1. 진입 차수가 0인 정점을 Queue에 삽입
-	
-	// 2. Queue에서 원소를 꺼내 연결된
-	// 모든 간섭을 제거합니다.
-
-	// 3. 간섭 제거 이후에 진입 차수가 0이 된
-	// 정점을 Queue에 삽입합니다.
-
-	// 4. Queue가 비어있을 때까지 2번 ~ 3번
-	// 작업을 반복적으로 수행합니다.
-
-	Graph<int> graph;
-
-	graph.insert(1, 2);
-	graph.insert(1, 5);
-
-	graph.insert(2, 3);
-
-	graph.insert(3, 4);
-
-	graph.insert(4, 6);
-
-	graph.insert(5, 6);
-
-	graph.insert(6, 7);
 
 #pragma endregion
 
